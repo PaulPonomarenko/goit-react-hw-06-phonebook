@@ -13,7 +13,6 @@ export const Contacts = () => {
     const filtred = contacts.filter(contact =>
       contact.name.toLowerCase().includes(filter.toLowerCase())
     );
-    console.log(filtred);
     return filtred;
   };
 
